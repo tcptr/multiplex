@@ -1,9 +1,9 @@
 multiplex
 =========
 
-multi-directional shooter written in D.
+![](http://tcptr.github.io/images/multiplex_4.png)
 
-[website](http://tcptr.github.io/multiplex)
+multi-directional shooter written in D. [Website](http://tcptr.github.io/multiplex)
 
 ## supported platforms
 
