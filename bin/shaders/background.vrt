@@ -1,0 +1,13 @@
+attribute vec3 position;
+attribute vec2 texCoord;
+uniform mat4 pvMatrix;
+uniform mat4 mMatrix;
+varying vec2 vTexCoord;
+varying float vZ;
+
+void main() {
+  vec4 pos = mMatrix * vec4(position, 1.0);
+  vTexCoord = texCoord;
+  vZ = pos.z;
+  gl_Position = pvMatrix * pos;
+}

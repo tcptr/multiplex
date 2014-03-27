@@ -1,0 +1,12 @@
+attribute vec3 position;
+attribute vec2 texCoord;
+uniform mat4 pvMatrix;
+uniform mat4 mMatrix;
+uniform int line;
+varying vec2 vTexCoord;
+
+void main() {
+  vTexCoord = texCoord;
+  vec4 pos = mMatrix * vec4(position, 1.0);
+  gl_Position = pvMatrix * pos;
+}

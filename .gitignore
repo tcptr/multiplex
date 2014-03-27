@@ -1,0 +1,9 @@
+multiplex*
+*.o
+*.obj
+.DS_Store
+gh-pages
+bin/config
+bin/replay
+.json.tmp
+tags
