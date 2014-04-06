@@ -10,8 +10,8 @@ import std.random;
 enum PulseRule = Rule(
     Mode.Pulse,
     true,
-    2, 2,
-    1, 0,
+    3, 3,
+    0, 0,
     5,
     Vec2(640, 400),
     (Stage stage, Frame frame) => new EnemyEmitterPulse(stage, frame),
