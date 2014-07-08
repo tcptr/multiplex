@@ -1,3 +1,0 @@
-[submodule "src/thino"]
-	path = src/thino
-	url = git://github.com/tcptr/thino.git
